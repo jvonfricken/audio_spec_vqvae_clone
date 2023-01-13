@@ -1,0 +1,19 @@
+dataset:
+  name: mnist
+  path: ./data
+image_size: 28
+num_channels: 1
+num_workers: 8
+learning_rate: 0.0002
+beta: 0.25
+epochs: 100
+batch_size: 128
+train_size: 50000
+test_size: 10000
+n_units: 16
+AE:
+  K: [0]
+  D: 1
+VQVAE:
+  D: [10]
+  K: [32]
